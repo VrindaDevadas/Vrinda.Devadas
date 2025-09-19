@@ -103,9 +103,30 @@ const AboutMe: React.FC = () => {
                                         <p className="font-bold text-brand-primary">2. DY Intelligent Interior <span className="font-normal text-sm text-brand-primary">(27 August - 12 October, 2025)</span></p>
                                         <p className="text-brand-primary">UI/UX Intern, Singapore (remote)</p>
                                         <ul className="list-disc list-inside mt-1 space-y-1">
-                                            <li>Designing and Developing WordPress websites. Ensuring responsive and user friendly websites.</li>
-                                            <li>Customizing themes, plugins and layouts, Collaborating with the SEO and content teams.</li>
+                                            <li>Designing Wireframes and Prototyping</li>
+                                            <li>Collaborated with branding and design teams to align visuals with company identity.</li>
+                                            <li>Developed a custom or theme-based site that balances aesthetic impact with technical performance</li>
                                         </ul>
+                                        <div className="mt-3 flex flex-wrap gap-4">
+                                            {/* Button 1: View Wireframes */}
+                                            <a
+                                                href="public\Dy.pdf" // <-- Link to your wireframes PDF
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-block border border-accent-text text-accent-text font-semibold py-1 px-4 rounded hover:bg-accent-text/10 transition-colors"
+                                            >
+                                                View Wireframes
+                                            </a>
+                                            {/* Button 2: View Final Work */}
+                                            <a
+                                                href="public\Dy_interiors[1] (1).pdf" // <-- Link to your final work PDF
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-block border border-accent-text text-accent-text font-semibold py-1 px-4 rounded hover:bg-accent-text/10 transition-colors"
+                                            >
+                                                View Final Work
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

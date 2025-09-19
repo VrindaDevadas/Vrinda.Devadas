@@ -6,6 +6,7 @@ import { useInView } from 'react-intersection-observer';
 import projectOneImage from '../assets/homedec.png';
 import projectTwoImage from '../assets/portfolio.png';
 
+
 const projectData = [
     {
         imageUrl: projectOneImage,
@@ -17,10 +18,11 @@ const projectData = [
     {
         imageUrl: projectTwoImage,
         title: 'Personal Portfolio',
-        technologies: 'Next.js, Figma, Spline',
+        technologies: 'React.js, Figma, Spline',
         githubUrl: '#',
         figmaUrl: '#',
     },
+
 ];
 
 const Projects: React.FC = () => {

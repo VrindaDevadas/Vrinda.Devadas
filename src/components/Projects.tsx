@@ -12,15 +12,15 @@ const projectData = [
         imageUrl: projectOneImage,
         title: 'Heaven & Hearth',
         technologies: 'React.js, Figma',
-        githubUrl: '#',
-        figmaUrl: '#',
+        githubUrl: 'https://github.com/VrindaDevadas/HandmadeDecor',
+        figmaUrl: 'https://www.figma.com/design/C2qElwnUwrv3wyOUp4rOe7/HomeDecor?node-id=0-1&t=KmjMUZRCvcjHzxGY-1',
     },
     {
         imageUrl: projectTwoImage,
         title: 'Personal Portfolio',
         technologies: 'React.js, Figma, Spline',
-        githubUrl: '#',
-        figmaUrl: '#',
+        githubUrl: 'https://github.com/VrindaDevadas/Vrinda.Devadas',
+        figmaUrl: 'https://www.figma.com/design/1AwKxnb0oJlZGR5FqdIqsn/potfolio?node-id=0-1&t=TCdTOjOagb1XQjv1-1',
     },
 
 ];

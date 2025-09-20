@@ -5,13 +5,13 @@ import Spline from '@splinetool/react-spline';
 const Hero: React.FC = () => {
     return (
 
-        <section className="pb-5">
-            <div className="container mx-auto px-30">
+        <section className="min-h-screen pb-20">
+            <div className="container mx-auto px-20">
 
                 <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12">
 
 
-                    <div className="w-full max-w-xs md:max-w-sm lg:w-1/2 lg:max-w-none mx-auto aspect-square">
+                    <div className="w-4/5 max-w-xs md:max-w-sm lg:w-1/2 lg:max-w-none mx-auto aspect-square">
                         <Spline scene="https://prod.spline.design/zPYoxgn8YjTIK4-R/scene.splinecode" />
                     </div>
 

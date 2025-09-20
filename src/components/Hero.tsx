@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
                 <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12">
 
 
-                    <div className="w-4/5 max-w-xs md:max-w-sm lg:w-1/2 lg:max-w-none mx-auto aspect-square">
+                    <div className="w-full max-w-lg lg:w-1/2 lg:max-w-none mx-auto aspect-square">
                         <Spline scene="https://prod.spline.design/zPYoxgn8YjTIK4-R/scene.splinecode" />
                     </div>
 
@@ -20,7 +20,8 @@ const Hero: React.FC = () => {
                         <h2 className="text-3xl font-bold text-brand-secondary-text">
                             Hello There!
                         </h2>
-                        <h1 className="text-4xl md:text-5xl font-bold text-brand-primary-text my-3">
+
+                        <h1 className="text-4xl md:text-5xl font-bold py-2 px-0 text-brand-primary-text my-3 whitespace-nowrap">
                             I'm Vrinda Devadas
                         </h1>
                         <p className="text-lg text-brand-secondary-text leading-relaxed">

@@ -5,7 +5,7 @@ import Spline from '@splinetool/react-spline';
 const Hero: React.FC = () => {
     return (
         <section className="min-h-screen pb-20">
-            <div className="container mx-auto px-6 lg:px-50">
+            <div className="container mx-auto px-4 lg:px-50">
 
                 <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12">
 

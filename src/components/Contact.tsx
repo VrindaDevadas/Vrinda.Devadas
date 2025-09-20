@@ -1,4 +1,4 @@
-// src/components/Contact.tsx
+
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import { FaLinkedin, FaGithub, FaBehance } from 'react-icons/fa';
@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
                             <input
                                 type="email"
                                 id="email"
-                                name="email" // <-- This is important
+                                name="email"
                                 required
                                 className="w-full bg-white/50 p-3 rounded-lg border-none focus:ring-2 focus:ring-brand-primary"
                             />
@@ -59,7 +59,7 @@ const Contact: React.FC = () => {
                             <label htmlFor="message" className="block text-lg font-semibold text-gray-800 mb-2">Your Message :</label>
                             <textarea
                                 id="message"
-                                name="message" // <-- This is important
+                                name="message"
                                 required
                                 rows={6}
                                 className="w-full bg-white/50 p-3 rounded-lg border-none focus:ring-2 focus:ring-brand-primary"

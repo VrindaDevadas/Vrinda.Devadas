@@ -5,16 +5,21 @@
 
 
   --color-linkedin: #0A66C2;
-  --color-brand-primary: #643745; 
+  --color-brand-primary: #643745;
 
   --color-brand-gradient-from: #B58F8F;
   --color-brand-gradient-to: #F2EBEB
+    /* Text colors */
+    --color-brand-primary-text: #8b455f;
+  /* For your name */
+  --color-brand-secondary-text: #1f2937;
+  /* A dark gray for other text */
 
-  /* Text colors */
-  --color-brand-primary-text: #8b455f; /* For your name */
-  --color-brand-secondary-text: #1f2937; /* A dark gray for other text */
-
-   --color-dark-button: #000000;
+  --color-dark-button: #000000;
 
 
+}
+
+html {
+  scroll-behavior: smooth;
 }

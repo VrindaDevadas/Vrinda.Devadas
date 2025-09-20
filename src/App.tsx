@@ -13,10 +13,18 @@ const App: React.FC = () => {
       <div className="bg-gradient-to-b from-brand-gradient-from to-brand-gradient-to min-h-screen p-4 sm:p-8 rounded-lg">
         <Header />
         <main>
-          <Hero />
-          <Projects />
-          <AboutMe />
-          <Contact />
+          <div id="home">
+            <Hero />
+          </div>
+          <div id="projects">
+            <Projects />
+          </div>
+          <div id="about">
+            <AboutMe />
+          </div>
+          <div id="contact">
+            <Contact />
+          </div>
         </main>
       </div>
     </div>

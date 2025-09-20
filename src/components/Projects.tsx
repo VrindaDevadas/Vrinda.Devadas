@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
             <h2
                 ref={ref}
                 className={`
-          inline-block bg-brand-primary text-white font-bold text-3xl py-3 px-10 mb-12
+          inline-block bg-brand-primary text-white font-bold text-2xl py-3 px-10 mb-12
           rounded-r-full  
           transition-all duration-1000 ease-out
           ${inView ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-full'}

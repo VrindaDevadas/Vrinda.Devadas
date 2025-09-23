@@ -65,7 +65,7 @@ const AboutMe: React.FC = () => {
                                         </ul>
                                     </div>
                                     <div>
-                                        <p className="font-bold text-brand-primary">2. DY Intelligent Interior <span className="font-normal text-sm text-brand-primary">(27 August - 12 October, 2025)</span></p>
+                                        <p className="font-bold text-brand-primary">2. DY Intelligent Interior <span className="font-normal text-sm text-brand-primary">(01 August - 12 September, 2025)</span></p>
                                         <p className="text-brand-primary">UI/UX Intern, Singapore (remote)</p>
                                         <ul className="list-disc list-inside mt-1 space-y-1">
                                             <li>Designing Wireframes and Prototyping</li>

@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
             <div className="container mx-auto px-10">
                 <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-25">
 
-                    <div className="w-full lg:w-1/2 text-center lg:pb-28">
+                    <div className="w-full lg:w-2/5 text-center lg:pb-28">
                         <h2 className="text-2xl font-bold text-brand-secondary-text">
                             Hello There!
                         </h2>
@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
                     </div>
 
 
-                    <div className="w-full max-w-lg lg:w-1/2 lg:max-w-none mx-auto aspect-[4/5] overflow-hidden lg:pb-15">
+                    <div className="w-full max-w-lg lg:w-3/5 lg:max-w-xl mx-auto aspect-[4/5] overflow-hidden lg:pb-15">
                         <div className="w-[150%] h-full relative -translate-x-[15%]">
                             <Spline scene="https://prod.spline.design/zPYoxgn8YjTIK4-R/scene.splinecode" />
                         </div>

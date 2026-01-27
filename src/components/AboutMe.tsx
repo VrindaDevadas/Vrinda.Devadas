@@ -55,14 +55,34 @@ const AboutMe: React.FC = () => {
                             <div className={`col-start-1 row-start-1 transition-opacity duration-300 ${activeTab === 'experience' ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
                                 <div className="space-y-4 text-black-700">
                                     <div>
-                                        <p className="font-bold text-brand-primary"><a href="https://seospidy.com/" target="_blank" rel="noopener noreferrer">
-                                            1. SeoSpidy
-                                        </a><span className="font-normal text-sm text-brand-primary"> (20 May - 1 July, 2025)</span></p>
-                                        <p className="text-brand-primary">WordPress Designer Intern, New Delhi (onsite)</p>
+                                        <p className="font-bold text-brand-primary"><a href="https://ideomethodtechnologies.com/" target="_blank" rel="noopener noreferrer">
+                                            1. Ideomethod Technologies
+                                        </a><span className="font-normal text-sm text-brand-primary"> (02 October, 2025 - 02 January, 2026)</span></p>
+                                        <p className="text-brand-primary">UI/UX with Frontend Developer Intern, Indore (remote)</p>
                                         <ul className="list-disc list-inside mt-1 space-y-1">
-                                            <li>Designing and Developing WordPress websites. Ensuring responsive and user friendly websites.</li>
-                                            <li>Customizing themes, plugins and layouts, Collaborating with the SEO and content teams.</li>
+                                            <li>Worked on creating user-centered designs, wireframes and prototypes.</li>
+                                            <li> Integrating AI in websites and worked on optimizing website performances</li>
                                         </ul>
+                                        <div className="mt-3 flex flex-wrap gap-4">
+
+                                            <a
+                                                href="https://github.com/ideomethodTech/UI-School-Management/tree/feature"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-block border border-accent-text text-accent-text font-semibold py-1 px-4 rounded hover:bg-accent-text/10 transition-colors"
+                                            >
+                                                View Repo of Project 1
+                                            </a>
+
+                                            <a
+                                                href="https://www.figma.com/proto/OG2im28SMP44GptZmpNQ3V/Inventory-UI?node-id=0-1&t=e9BmXjfgNJvml9ZQ-1"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-block border border-accent-text text-accent-text font-semibold py-1 px-4 rounded hover:bg-accent-text/10 transition-colors"
+                                            >
+                                                View Prototype of Project 2
+                                            </a>
+                                        </div>
                                     </div>
                                     <div>
                                         <p className="font-bold text-brand-primary">2. DY Intelligent Interior <span className="font-normal text-sm text-brand-primary">(01 August - 12 September, 2025)</span></p>

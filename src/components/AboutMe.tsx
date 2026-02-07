@@ -75,7 +75,7 @@ const AboutMe: React.FC = () => {
                                             </a>
 
                                             <a
-                                                href="https://www.figma.com/proto/OG2im28SMP44GptZmpNQ3V/Inventory-UI?node-id=0-1&t=e9BmXjfgNJvml9ZQ-1"
+                                                href="https://www.figma.com/design/OG2im28SMP44GptZmpNQ3V/Inventory-UI?node-id=0-1&t=p3hs88lzHrtaRAjC-1"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 className="inline-block border border-accent-text text-accent-text font-semibold py-1 px-4 rounded hover:bg-accent-text/10 transition-colors"
@@ -95,7 +95,7 @@ const AboutMe: React.FC = () => {
                                         <div className="mt-3 flex flex-wrap gap-4">
 
                                             <a
-                                                href="public\Dy.pdf"
+                                                href="/Dy.pdf"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 className="inline-block border border-accent-text text-accent-text font-semibold py-1 px-4 rounded hover:bg-accent-text/10 transition-colors"
@@ -104,7 +104,7 @@ const AboutMe: React.FC = () => {
                                             </a>
 
                                             <a
-                                                href="public\Dy_interiors[1] (1).pdf"
+                                                href="/Dy_interiors[1] (1).pdf"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 className="inline-block border border-accent-text text-accent-text font-semibold py-1 px-4 rounded hover:bg-accent-text/10 transition-colors"
@@ -127,7 +127,7 @@ const AboutMe: React.FC = () => {
                                     <div>
                                         <p className="font-bold text-brand-primary">VIT Bhopal University (2022-2026)</p>
                                         <p>B.Tech Computer Science</p>
-                                        <p>CGPA - 7.94 (current)</p>
+                                        <p>CGPA - 7.95 (current)</p>
                                     </div>
                                 </div>
                             </div>
@@ -135,9 +135,9 @@ const AboutMe: React.FC = () => {
                             {/* Skills Panel */}
                             <div className={`col-start-1 row-start-1 transition-opacity duration-300 ${activeTab === 'skills' ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
                                 <div className="space-y-2 text-black-700">
-                                    <p><strong className="text-brand-primary">Languages:</strong> HTML, CSS, Javascript, Python</p>
-                                    <p><strong className="text-brand-primary">Developer Tools:</strong> Visual Studio Code, Figma, Wordpress</p>
-                                    <p><strong className="text-brand-primary">Frameworks:</strong> Bootstrap, React.js</p>
+                                    <p><strong className="text-brand-primary">Languages:</strong> HTML, CSS, Javascript</p>
+                                    <p><strong className="text-brand-primary">Developer Tools:</strong> Visual Studio Code, Figma, Wordpress, Balsamiq, Antigravity</p>
+                                    <p><strong className="text-brand-primary">Frameworks:</strong> Bootstrap, React.js, Next.js</p>
                                     <p><strong className="text-brand-primary">Soft Skills:</strong> TeamWork and Collaboration, Creative Thinking</p>
                                     <p><strong className="text-brand-primary">Areas of Interest:</strong> Front End Web Development/Design</p>
                                 </div>

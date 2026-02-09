@@ -82,6 +82,15 @@ const AboutMe: React.FC = () => {
                                             >
                                                 View Prototype of Project 2
                                             </a>
+
+                                            <a
+                                                href="https://www.figma.com/design/jjKYhQi08giuUwT84Dnvr4/AI-learning-Hub?node-id=284-1463&t=8G1ScsYhtAoVTMHx-1"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-block border border-accent-text text-accent-text font-semibold py-1 px-4 rounded hover:bg-accent-text/10 transition-colors"
+                                            >
+                                                View Prototype of Project 3
+                                            </a>
                                         </div>
                                     </div>
                                     <div>
@@ -155,4 +164,4 @@ const AboutMe: React.FC = () => {
     );
 };
 
-export default AboutMe;
+export default AboutMe; 

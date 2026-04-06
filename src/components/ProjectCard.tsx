@@ -4,11 +4,11 @@ interface ProjectCardProps {
     imageUrl: string;
     title: string;
     technologies: string;
-    githubUrl: string;
-    figmaUrl: string;
+    githubUrl?: string;
+    behanceUrl?: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ imageUrl, title, technologies, githubUrl, figmaUrl }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ imageUrl, title, technologies, githubUrl, behanceUrl }) => {
     return (
 
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col">
@@ -25,22 +25,26 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imageUrl, title, technologies
                 <p className="text-gray-600 mt-1">Made With : {technologies}</p>
 
                 <div className="mt-4 flex justify-center gap-4">
-                    <a
-                        href={githubUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="bg-dark-button text-white font-semibold py-2 px-6 rounded-lg hover:opacity-80 transition-opacity"
-                    >
-                        Github Repo
-                    </a>
-                    <a
-                        href={figmaUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="bg-dark-button text-white font-semibold py-2 px-6 rounded-lg hover:opacity-80 transition-opacity"
-                    >
-                        Figma Design
-                    </a>
+                    {githubUrl && (
+                        <a
+                            href={githubUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-dark-button text-white font-semibold py-2 px-6 rounded-lg hover:opacity-80 transition-opacity"
+                        >
+                            Github Repo
+                        </a>
+                    )}
+                    {behanceUrl && (
+                        <a
+                            href={behanceUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-dark-button text-white font-semibold py-2 px-6 rounded-lg hover:opacity-80 transition-opacity"
+                        >
+                            Behance
+                        </a>
+                    )}
                 </div>
             </div>
         </div>

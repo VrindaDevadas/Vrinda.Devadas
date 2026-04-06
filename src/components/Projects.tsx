@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 import { useInView } from 'react-intersection-observer';
 
 import projectOneImage from '../assets/homedec.png';
-import projectTwoImage from '../assets/portfolio.png';
+import projectTwoImage from '../assets/neuropods.jpeg';
 
 
 const projectData = [
@@ -13,14 +13,13 @@ const projectData = [
         title: 'Heaven & Hearth',
         technologies: 'React.js, Figma',
         githubUrl: 'https://github.com/VrindaDevadas/HandmadeDecor',
-        figmaUrl: 'https://www.figma.com/design/C2qElwnUwrv3wyOUp4rOe7/HomeDecor?node-id=0-1&t=KmjMUZRCvcjHzxGY-1',
+        BehanceUrl: 'https://www.behance.net/gallery/246944997/Handmade-Homedecor-Website',
     },
     {
         imageUrl: projectTwoImage,
-        title: 'Personal Portfolio',
-        technologies: 'React.js, Figma, Spline',
-        githubUrl: 'https://github.com/VrindaDevadas/Vrinda.Devadas',
-        figmaUrl: 'https://www.figma.com/design/1AwKxnb0oJlZGR5FqdIqsn/potfolio?node-id=0-1&t=TCdTOjOagb1XQjv1-1',
+        title: 'NeuroPods Insight Platform',
+        technologies: 'Figma',
+        BehanceUrl: 'https://www.behance.net/gallery/246910813/NeuroPods-Insight-Platform',
     },
 
 ];
@@ -45,7 +44,7 @@ const Projects: React.FC = () => {
           ${inView ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-full'}
         `}
             >
-                My Projects
+                Personal Projects
             </h2>
 
 
@@ -59,7 +58,7 @@ const Projects: React.FC = () => {
                                 title={project.title}
                                 technologies={project.technologies}
                                 githubUrl={project.githubUrl}
-                                figmaUrl={project.figmaUrl}
+                                behanceUrl={project.BehanceUrl}
                             />
                         ))}
                     </div>

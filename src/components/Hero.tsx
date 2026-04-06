@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
                             I'm Vrinda Devadas
                         </h1>
                         <p className="text-lg text-brand-secondary-text leading-relaxed">
-                            I'm an aspiring Front End Developer and a UI/UX Designer
+                            An aspiring Product Designer and User Researcher
                         </p>
                     </div>
 

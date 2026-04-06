@@ -38,7 +38,7 @@ const AboutMe: React.FC = () => {
 
                     <div className="lg:w-2/3">
                         <p className="text-lg text-gray-800 leading-relaxed">
-                            I'm Vrinda Devadas, a front-end developer and UI/UX design enthusiast from Kerala, raised in New Delhi, India. I'm passionate about learning, adapting to emerging front-end and UI/UX technologies, and turning ideas into delightful user experiences. I'm driven, quick to master new concepts, and thrive under mentorship and collaborative guidance.
+                            I'm Vrinda Devadas, an aspiring product Designer from Kerala, raised in New Delhi, India with a passion for creating intuitive and user-centered digital experiences. I have a strong background in design principles, user research methodologies, and a keen eye for detail. I am dedicated to crafting innovative solutions that enhance user satisfaction and drive business success. I'm driven, quick to master new concepts, and thrive under mentorship and collaborative guidance.
                         </p>
 
 
